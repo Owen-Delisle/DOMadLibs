@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "DOMadLibs",
+  "description": "This extension makes the internet MadLibs",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "icons": {
+    "16": "DOMadLipsIcon.png",
+    "48": "DOMadLipsIcon.png",
+    "128": "DOMadLipsIcon.png"
+  },
+  "background": {
+    "scripts": ["app/background.js"]
+  },
+  "content_scripts": [
+    {
+      "js": ["app/content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_security_policy": "script-src 'self' 'sha256-5As4+3YpY62+l38PsxCEkjB1R4YtyktBtRScTJ3fyLU='; object-src 'self'",
+  "permissions": ["webRequest", "*://developer.mozilla.org/"]
+}
