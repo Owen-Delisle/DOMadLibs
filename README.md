@@ -8,7 +8,7 @@ DOMadLibs was creates with React and Redux and uses the browsers local storage t
 
 Clone or download the project then run ```npm install``` and ```yarn build```.
 
-after that go to [chrome://extensions/](chrome://extensions/) and turn on developer mode in the top right corner.
+after that go to chrome://extensions/ and turn on developer mode in the top right corner.
 
 You will then see a button in the top left corner that says Load Unpacked. 
 
