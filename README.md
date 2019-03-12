@@ -2,7 +2,7 @@
 
 Use the DOMadLibs chrome extension to make the internet one big game of Mad Libs
 
-DOMadLibs was creates with React and Redux and uses the browsers local storage to persist user data after the popup is closed or after the window is closed. It searches through the DOM looking for words that the user has chosen to switch out for another word. The search automatically every time a new tab is opened or a new word is added.
+DOMadLibs was created with React and Redux and uses the browsers local storage to persist user data after the popup is closed or after the window is closed. It searches through the DOM looking for words that the user has chosen to switch out for another word. The search happens automatically every time a new tab is opened or a new word is added.
 
 ### Installing
 
@@ -12,7 +12,7 @@ after that go to chrome://extensions/ and turn on developer mode in the top righ
 
 You will then see a button in the top left corner that says Load Unpacked. 
 
-Here you will want to upload the build folder.
+Here you will want to upload the build folder in the project.
 
 The extension should now show up in the list of extensions and be working.
 
